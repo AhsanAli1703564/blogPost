@@ -11,14 +11,14 @@ body{
 }
 
 .signup {
-    color: white;
-    border: white solid 1px;
+    /* color: white;
+    border: white solid 1px; */
     border-radius: 50px;
     font-size: 15px;
     padding: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: 260px
+    position: absolute;
+    /* padding-left: 15px;
+    padding-right: 15px; */
 }
 
 .login {
@@ -26,10 +26,9 @@ body{
     border: #ff9800 solid 1px;
     background-color: #ff9800;
     border-radius: 50px;
+    margin-left: 90px;
     font-size: 15px;
     padding: 0.5rem 1.2em;
-    margin-left: 10px;
-    margin-right: -10px;
 }
 
 .signup:hover,
@@ -44,26 +43,86 @@ body{
 .home{
     overflow-x: hidden;
     padding-top: 150px;
-    font-family: 'Montesserat' , sans-serif;
-    background-image: url(../assests/home-background.jpg);
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(0, 108, 151, 0.329);;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    color: black;
     overflow-y: hidden;
 }
 
-.home .container{
-    margin-left: 30%;
-    margin-bottom: 168px;
-    margin-top: 90px;
-    padding-bottom: 15%;
+img{
+    width: 400px;
+    margin-left: 70%;
+    margin-right: 20px;
 }
 
-.home button{
-    color: black;
+.home .container{
+    padding-bottom: 40px;
+}
+h1{
+    align-items: center;
+    margin-left: 18%;
+    margin-top: -50px;
+    color: #35858B;
+    font-size: 60px;
+}
+
+h1 span{
+    color: #072227;
+}
+
+.home .explore-line{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 25px;
+}
+
+.home .explore-line span{
+    font-weight: 600;
+    color: #072227;
+}
+.home .explore{
+    color: #35858B;
     margin-left: 15%;
     font-weight: bold;
-    border-color: black, solid 1px;
 }
 
+
+h2{
+    padding-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    padding-top: 5px;
+}
+
+.home .container .card-body{
+    background-color: white;
+    border-radius: 20px;
+    /* padding-right: 50px; */
+    padding-left: 10px;
+}
+.container .card-body .title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+.container .card-body .description{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
+.home .container.card-body{
+    margin-right: 30%;
+    width: fit-content;
+}
+
+.bi{
+    margin-top: 18px;
+}
