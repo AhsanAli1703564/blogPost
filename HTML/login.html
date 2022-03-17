@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="hero">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="Login() ,hideregister()">Log In </button>
+                <button type="button" class="toggle-btn" onclick="Register(), hidelogin()">Register </button>
+            </div>
+            <div class="social-icons">
+                <img src="../assests/fb.png" alt="">
+                <img src="../assests/tw.png" alt="">
+                <img src="../assests/gp.png" alt="">
+            </div>
+        </div>
+        <form action="" class="input-group" id="Login">
+            <input type="text" class="input-feild" placeholder="User Id" required>
+            <input type="text" class="input-feild" placeholder="Enter Password" required>
+            <input type="checkbox" class="chech-box"><span>Remember Me</span>
+            <button type="submit" class="submit-btn">Log In</button>
+        </form>
+        <form action="" class="input-group" id="Register">
+            <input type="text" class="input-feild" placeholder="User Id" required>
+            <input type="text" class="input-feild" placeholder="Email Id" required>
+            <input type="text" class="input-feild" placeholder="Enter Password" required>
+            <input type="checkbox" class="chech-box"><span>I agree to the terms and conditions</span>
+            <button type="submit" class="submit-btn">Register</button>
+        </form>
+    </div>
+
+    <script>
+        var x = document.getElementById("Login");
+        var y = document.getElementById("Register");
+        var z = document.getElementById("btn");
+
+        function Register(){
+            x.style.left = "50px";
+            y.style.left = "480px";
+            z.style.left = "110px";
+        }
+        function Login(){
+            x.style.left = "480px";
+            y.style.left = "50px";
+            z.style.left = "0px";
+        }
+        function hideregister(){
+            y.style.display = "none";
+            x.style.display = "inline-block"
+        }
+        function hidelogin(){
+            x.style.display = "none";
+            y.style.display = "inline-block"
+        }
+    </script>
+</body>
+</html>
