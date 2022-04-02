@@ -106,3 +106,15 @@ p{
 .bi{
     width: 25px;    
 }
+
+@media(max-width:512px){
+    h1{
+        margin-left: 10px;
+    }
+}
+
+@media(max-width:376px){
+    h1{
+        font-size: 50px;
+    }
+}
