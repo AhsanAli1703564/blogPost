@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    overflow-x: hidden;
+}
+
+.navbar .navbar-nav {
+    padding-left: 320px;
+}
+
+
+.input-group {
+    height: 20px;
+    margin-top: 90px;
+    color: rgb(69, 188, 69);
+    margin-bottom: 40px;
+}
+
+.container .input-group .fas {
+    color: rgb(69, 188, 69);
+}
+
+h4 {
+    margin-top: 5px;
+    padding-left: 10px;
+    font-style: italic;
+}
+
+h2 {
+    color: black;
+    font-variant: small-caps;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5%;
+    position: relative;
+    text-align: center;
+}
+
+h2::after {
+    content: "";
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: linear-gradient(to right, rgb(30, 190, 30), rgb(86, 193, 86));
+    transform: translateX(-50%);
+}
+
+.container-fluid {
+    margin-left: 10px;
+}
+
+.img_wrap {
+    border-radius: 20px;
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.824);
+}
+
+.img_description {
+    font-size: 25px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.rmbt {
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+
+.new-blog {
+    margin-top: 40px;
+    margin-left: 45%;
+    margin-bottom: 20px;
+
+}
+
+.rmbt:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
