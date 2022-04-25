@@ -1,7 +1,80 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
 
-body{
+body {
     font-family: 'Montserrat', sans-serif;
-    background-color: ;
+    background-color: white;
+    overflow-x: hidden;
 }
 
+.navbar .navbar-nav {
+    padding-left: 320px;
+    color: black;
+}
+
+.navbar .navbar-brand {
+    color: rgb(69, 188, 69);
+}
+
+.banner {
+    margin-left: 90px;
+    margin-top: 90px;
+}
+
+h3 {
+    margin-top: 30px;
+}
+
+
+span {
+    color: rgb(69, 188, 69);
+}
+
+.banner .container {
+    width: fit-content;
+    display: inline-block, solid;
+    position: auto;
+    float: none;
+    text-align: left;
+    border-color: black;
+    border-radius: 10px;
+    border-width: 15px;
+    color: black;
+    margin-right: 60px;
+    margin-bottom: 20px;
+}
+
+.container .card-body {
+    background-color: white;
+    border-radius: 20px;
+    padding-right: 50px;
+    padding-left: 20px;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+.container .card-body .title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 20px;
+    color: rgb(69, 188, 69);
+}
+
+.container .card-body .description {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+button {
+    background-color: rgb(85, 194, 85);
+    border-radius: 15px;
+    padding: 5px 7px 5px 7px;
+    border: 1px solid black;
+}
+
+button:hover {
+    color: white;
+    border: 1px solid white;
+    padding: 6px 8px 6px 8px;
+}
