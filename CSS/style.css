@@ -9,8 +9,8 @@ body{
 .hero{
     height: 100%;
     width: 100%;
-    background-image: url(https://thumbs.dreamstime.com/b/sunset-beach-sunrays-133301221.jpg);
-    background-image: (rgba(0,0,0,0.4),rgba(0,0,0,0.7));
+    background-image: url(../assests/login.jpg);
+    background-image: (rgba(0,0,0,0.4),rgba(0,0,0,0.4));
     background-position: center;
     background-size: cover;
     position: absolute;
