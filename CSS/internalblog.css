@@ -23,7 +23,7 @@ body {
 
 .title {
     position: relative;
-    text-align: center;
+    text-align: start;
     color: white;
 }
 
@@ -40,15 +40,16 @@ img {
 
 .container-fluid {
     margin-left: 20px;
-    margin-right: 10px;
     margin-top: 40px;
 }
 
 p {
     margin-top: 30px;
     text-align: justify;
+    font-weight: 500;
 }
 
 span {
     color: rgb(69, 188, 69);
+    font-weight: 600;
 }
