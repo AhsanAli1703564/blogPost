@@ -10,6 +10,10 @@ body {
     padding-left: 320px;
 }
 
+.navbar .navbar-brand {
+    color: rgb(69, 188, 69);
+}
+
 
 .input-group {
     height: 20px;
