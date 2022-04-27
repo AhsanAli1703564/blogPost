@@ -5,6 +5,7 @@ body {
     overflow-x: hidden;
     position: relative;
     width: 100%;
+    scroll-behavior: smooth;
 
 }
 
@@ -101,6 +102,14 @@ p {
 
 .bi {
     width: 25px;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: white;
 }
 
 @media(max-width:512px) {
